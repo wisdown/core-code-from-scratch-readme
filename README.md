@@ -1,6 +1,7 @@
 # core-code-from-scratch-readme
 
-## Interpreter and compiler
+## Week challenges (Tuesday) Solution
+Interpreter and compiler
 *Both the Interpreter and the compiler are used to convert the syntax of programming languages to language that the machine or binary although they have clear differences as.*
   - An interpreter is a program that directly executes instructions written in a given programming language.
   - A compiler is a program that converts the source code of a program to its equivalent in another lower-level programming language.
