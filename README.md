@@ -42,7 +42,6 @@ see table for result
 Sum of two values Solution
 
 ```
-
 .data
 	      maessage: .asciiz  "\nTanks for use this program "
 	      number1: .asciiz "\nIngrese el primer numero: "
@@ -100,9 +99,15 @@ Sum of two values Solution
               # la: load address, read the memory direction
 	      # $a0 is the path where is stored
               la $a0, maessage
-              syscall  
-              
-              
+              syscall                
+```
+program that displays My name Solution
+```
+.data
+       name: .asciiz "Elí Modesto Gómes Hernández" 
 
-              
+	.text 
+	 	li $v0, 4
+	 	la $a0, name
+	 	syscall 
 ```
