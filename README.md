@@ -24,3 +24,14 @@ ByteCode is then interpreted by the JVM making it as interpreted language.*
   6. END
 ``` 
 
+## Week challenges (Wednesday) Solution
+
+Date of birth
+
+```
+| **Decimal**    	| 10   	| 9   	| 8   	| 7   	| 6  	| 5  	| 4  	| 3 	| 2 	| 1 	| 0 	|
+|----------------	|------	|-----	|-----	|-----	|----	|----	|----	|---	|---	|---	|---	|
+| **Binary**     	| 2    	| 2   	| 2   	| 2   	| 2  	| 2  	| 2  	| 2 	| 2 	| 2 	| 2 	|
+| **Operation**  	| 1024 	| 512 	| 256 	| 128 	| 64 	| 32 	| 16 	| 8 	| 4 	| 2 	| 1 	|
+| **Calculator** 	| 1    	| 1   	| 1   	| 1   	| 0  	| 1  	| 1  	| 1 	| 1 	| 0 	| 0 	|
+```
