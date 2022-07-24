@@ -112,3 +112,23 @@ program that displays My name Solution
 	 	la $a0, name
 	 	syscall 
 ```
+
+## Week challenges (Thursday) Solution
+Print even numbers from 0 to 100
+
+``` Javascript
+let str = '';
+
+for (let i = 0; i <= 100; i++) {  
+  //% residual modulus
+ // if compares if the operation is equal to 0, if it is not, it does nothing
+  if(i%2==0){
+    str =  str +"\n" + i;
+    
+  }
+  
+  
+}
+
+console.log(str);
+```
