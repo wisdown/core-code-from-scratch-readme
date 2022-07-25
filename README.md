@@ -132,3 +132,19 @@ for (let i = 0; i <= 100; i++) {
 
 console.log(str);
 ```
+
+Bad Code N.1 
+
+- changed operator = to ==
+- the = operator is an assignment operator.
+- the == is comparison
+
+``` Javascript
+var cond = false;
+
+  if ((cond == true)) {
+  console.log('The cond variable is true');
+  } else {
+   console.log('The cond variable is false');
+  }
+```
