@@ -148,3 +148,26 @@ var cond = false;
    console.log('The cond variable is false');
   }
 ```
+
+Bad Code N.2
+
+Solution 
+- possible solution the developer forgot put the message
+``` Javascript
+var n = 100;
+
+if (n == 100) {
+  console.log('This is a special number!');
+}
+if (n < 1000) {
+  //"This number is almost special"
+  console.log('This number is almost special');
+} else {
+  console.log('Just a regular number');
+}
+if (n % 10 == 0) {
+  console.log('This number is multiple of 10');
+}
+
+```
+
