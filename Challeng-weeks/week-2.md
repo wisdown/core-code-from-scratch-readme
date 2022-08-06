@@ -5,7 +5,7 @@
 
 Exercise No. 2
 
-- how i fixed: retunr operator was not included
+- how i fixed: return operator was not included
 
 ```javascript
 /*This code does not execute properly. Try to figure out why. */
