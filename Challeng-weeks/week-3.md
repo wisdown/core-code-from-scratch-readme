@@ -37,10 +37,22 @@ function likes(names) {
 
 Excrcise Name: Bit Counting
 
-- how i fixed:
+- how i fixed: we convet the number to binary base at the same time we divide it into an array and we solve it with the method reduce()
+- methods used: toString(), split() reduce()
+  and anonymus functions
+  use the following link to see how it is used
+  //https://www.youtube.com/watch?v=0y5lXGYMEw0&t=487s
+  he teaches how to index
 
 ```javascript Exercise No. 2
-/*put the code insede the backstic */
+
+var countBits = function (n) {
+  // we convet to binary base and we divide it  into an array
+  const base = n.toString(2).split("");
+  // make a sum with the array and make the index a Number
+  const result = base.reduce((sum, num) => sum + Number(num), 0);
+  return result;
+};
 
 ## we are working on it
 
