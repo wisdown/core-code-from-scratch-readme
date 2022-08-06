@@ -2,20 +2,41 @@
 
 <h2>Week Goals</h2>
 
-## Monday Tuesday
-
+## Monday
 
 Excrcise Name: Who Likes It?
-- how i fixed:
+
+- How i fixed: I decided to use the known methods to reinforce knowledge
+  methord used length , if, tamplates. and variebles overload
+- other consideration: when we used the length method,
+  if an array is empty it returns 0
 
 ```javascript Exercise No. 1
-/*put the code insede the backstic */
+function likes(names) {
+  let size = names.length;
+  let msm = "";
+  if (size === 0) {
+    msm = "no one likes this";
+  }
+  if (size === 1) {
+    msm = `${names[size - 1]} likes this`;
+  }
+  if (size === 2) {
+    msm = `${names[0]} and ${names[size - 1]} like this`;
+  }
+  if (size === 3) {
+    msm = `${names[0]}, ${names[1]} and ${names[2]} like this`;
+  }
+  if (size > 3) {
+    msm = `${names[0]}, ${names[1]} and ${size - 2} others like this`;
+  }
 
-## we are working on it
-
+  return msm;
+}
 ```
 
-Excrcise Name: Bit Counting 
+Excrcise Name: Bit Counting
+
 - how i fixed:
 
 ```javascript Exercise No. 2
@@ -26,6 +47,7 @@ Excrcise Name: Bit Counting
 ```
 
 Excrcise Name: Your Order, Please
+
 - how i fixed:
 
 ```javascript Exercise No. 3
@@ -36,7 +58,8 @@ Excrcise Name: Your Order, Please
 
 ## Tuesday
 
-Excrcise Name: Simple Pig Latin 
+Excrcise Name: Simple Pig Latin
+
 - how i fixed:
 
 ```javascript Exercise No. 1
@@ -47,6 +70,7 @@ Excrcise Name: Simple Pig Latin
 ```
 
 Excrcise Name: Counting Duplicates
+
 - how i fixed:
 
 ```javascript Exercise No. 2
@@ -57,6 +81,7 @@ Excrcise Name: Counting Duplicates
 ```
 
 Excrcise Name: Decode The Morse Code
+
 - how i fixed:
 
 ```javascript Exercise No. 3
@@ -68,7 +93,8 @@ Excrcise Name: Decode The Morse Code
 
 ## Wednesday
 
-Excrcise Name: Valid Parentheses 
+Excrcise Name: Valid Parentheses
+
 - how i fixed:
 
 ```javascript Exercise No. 1
@@ -79,6 +105,7 @@ Excrcise Name: Valid Parentheses
 ```
 
 Excrcise Name: Convert String To Camel Case
+
 - how i fixed:
 
 ```javascript Exercise No. 2
@@ -89,6 +116,7 @@ Excrcise Name: Convert String To Camel Case
 ```
 
 Excrcise Name: Unique In Order
+
 - how i fixed:
 
 ```javascript Exercise No. 3
@@ -101,6 +129,7 @@ Excrcise Name: Unique In Order
 ## Thursday
 
 Excrcise Name: Fold An Array
+
 - how i fixed:
 
 ```javascript Exercise No. 1
@@ -110,7 +139,8 @@ Excrcise Name: Fold An Array
 
 ```
 
-Excrcise Name: Encrypt This! 
+Excrcise Name: Encrypt This!
+
 - how i fixed:
 
 ```javascript Exercise No. 2
@@ -121,4 +151,5 @@ Excrcise Name: Encrypt This!
 ```
 
 Excrcise Name: Unique In Order
+
 - how i fixed:
