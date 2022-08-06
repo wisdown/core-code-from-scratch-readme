@@ -1,33 +1,33 @@
 <h1 align="center">Week No.2 challenges</h1>
 
-
 <h2>Week Goals</h2>
 <h2>Tuesday</h2>
 
 Exercise No. 2
-* how i fixed:  retunr operator was not included 
 
-``` javascript
+- how i fixed: retunr operator was not included
+
+```javascript
 /*This code does not execute properly. Try to figure out why. */
 
 function multiply(a, b) {
   return a * b;
 }
- ```
+```
+
 Exercise No. 3
 
-* Problem:
-*  You'll be given a string, and have to return the sum of all 
-characters as an int. The function should be able to handle all ASCII characters.
+- Problem:
+- You'll be given a string, and have to return the sum of all
+  characters as an int. The function should be able to handle all ASCII characters.
 
 examples:
 
 uniTotal("a") == 97 uniTotal("aaa") == 291
-    
 
-* how i fixed: i used the function charCodeAt() because let me convert any carater to ascii code
+- how i fixed: i used the function charCodeAt() because let me convert any carater to ascii code
 
-``` javasCript
+```javasCript
 
 function uniTotal(string){
 let size = string.length;
@@ -36,20 +36,21 @@ let size = string.length;
 let total = 0;
 //we perform an iteration by each element
   for(let i=0; i<size; i++ ){
-    //sum for each iteration 
+    //sum for each iteration
      total += string.charCodeAt(i);
   }
-   return total; 
+   return total;
 }
 ```
 
-## Wednesday 
+## Wednesday
 
 Exercise No. 2
-* Excercise Name: Char From ASCII Value 
-* how i fixed: I used fromCharCode method to convert the character to ASCII Value  
 
-``` javascript
+- Excercise Name: Char From ASCII Value
+- how i fixed: I used fromCharCode method to convert the character to ASCII Value
+
+```javascript
 /*
 Write a function get_char() / getChar() which takes a number
 and returns the corresponding ASCII char for that value.
@@ -58,15 +59,16 @@ function getChar(c) {
   let asii = String.fromCharCode(c);
   return asii;
 }
- ```
+```
 
 Exercise No. 3
-* Excercise Name: Binary Addition  
-* how i fixed: 
-1. first add the number in the traditional way, then convert the result to binary using the toString(2) method using the value 2 as base
-  
 
-``` javascript
+- Excercise Name: Binary Addition
+- how i fixed:
+
+1. first add the number in the traditional way, then convert the result to binary using the toString(2) method using the value 2 as base
+
+```javascript
 /*
 Implement a function that adds two numbers together 
 and returns their sum in binary. The conversion can be done before, or after the addition.
@@ -78,22 +80,22 @@ function addBinary(a, b) {
 
   return binary;
 }
-
- ```
+```
 
 Exercise No. 3
-* Excercise Name: Student's Final Grade  
-* how i fixed: 
-1. control structures were used to solve this problem if it was helpful inside the code leave comments 
-  
 
-``` javascript
+- Excercise Name: Student's Final Grade
+- how i fixed:
+
+1. control structures were used to solve this problem if it was helpful inside the code leave comments
+
+```javascript
 /*
-Create a function finalGrade, which calculates the final 
-grade of a student depending on two parameters: a 
+Create a function finalGrade, which calculates the final
+grade of a student depending on two parameters: a
 grade for the exam and a number of completed projects.
 
-This function should take two arguments: exam - grade 
+This function should take two arguments: exam - grade
 for exam (from 0 to 100); projects - number of completed projects (from 0 and above);
 
 This function should return a number (final grade). There are four types of final grades:
@@ -121,8 +123,98 @@ function finalGrade(exam, projects) {
     result = 0;
     return result;
   }
- ```
- 
+```
 
 1. control structures were used to solve this problem if it was helpful.
 
+## Thursday
+
+Exercise No. 2
+
+- Excercise Name: Remove All Exclamation Marks From The End Of Sentence
+- how i fixed:
+
+```javascript
+/*
+Description:
+Remove all exclamation marks from the end of sentence.
+
+*/
+
+/*
+Description:
+Remove all exclamation marks from the end of sentence.
+*/
+
+function remove(string) {
+  let size = string.length - 1;
+  let result = "";
+  for (let i = size; i > 0; i--) {
+    if (string[i] != "!") {
+      result = string.substring(0, i + 1);
+      break;
+    }
+  }
+  return result;
+}
+```
+
+Exercise No. 3
+
+- Excercise Name: Vowel Remover
+- how i fixed:
+
+```javascript
+unction shortcut (string) {
+ //note: all console.log() are used to init tests
+
+ /*tranformamos la cadena un array */
+ var strArr = string.split('');
+ //console.log(strArr);
+ /*console.log(string.length)
+ return the size of the string
+ */
+  for (var x = 0; x < string.length; x++) {
+    /* creacion de la variable char par almacenar el valor a recorrer mediante su indice */
+    var char = string[x];
+    console.log(char)
+    if (char == "a" || char == "e" || char == "i" || char == "o" || char == "u") {
+      strArr[x] = '';
+    }
+  }
+
+  //el metodo join("") se utiliza para unir la cadena resultante.
+  return strArr.join('');
+
+  }
+```
+
+Exercise No. 4
+
+- Excercise Name: Rock Paper Scissors!
+- how i fixed:
+
+```javascript
+/*
+Let's play! You have to return which player won! In case of a draw return Draw!.
+*/
+ we are working on it
+
+```
+
+Exercise No. 5
+
+- Excercise Name: Persistent Bugger.
+- how i fixed:
+
+```javascript
+
+/*
+Write a function, persistence, that takes in a positive parameter num and returns its multiplicative persistence, which is the number of times you must multiply the digits in num until you reach a single digit.
+
+For example (Input --> Output):
+
+*/
+we are working on it
+
+```
