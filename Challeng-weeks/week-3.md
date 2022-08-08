@@ -187,12 +187,23 @@ function toCamelCase(str) {
 
 Excrcise Name: Unique In Order
 
-- how i fixed:
+- how i fixed: The output of the array is parsed and the first element is compared to the second, if the first element is different from the second it is added to the new array; otherwise, nothing is done. and the new array is returned
+- methods used: for, if, push and array overload 
 
 ```javascript Exercise No. 3
-/*put the code insede the backstic */
-
-## we are working on it
+var uniqueInOrder=function(iterable){
+  let newOrder= [];
+  
+  for(let i=0; i<iterable.length; i++){
+    
+    if(iterable[i] != iterable[i+1] ){
+      newOrder.push(iterable[i])
+    }
+  }
+  
+  return newOrder;
+  //your code here - remember iterable can be a string or an array
+}
 
 ```
 
