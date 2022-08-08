@@ -73,11 +73,32 @@ Excrcise Name: Your Order, Please
 Excrcise Name: Simple Pig Latin
 
 - how i fixed:
+- Do the following exercise but it had some inconveniences when validations en in  katas
 
 ```javascript Exercise No. 1
-/*put the code insede the backstic */
+function pigIt(str) {
+  //convertimos a un array
+  let strToArry = str.split(" ");
+  let sizeStr = strToArry.length;
+  let neWord = "";
 
-## we are working on it
+  for (let i = 0; i < sizeStr; i++) {
+    let postr = strToArry[i].toString();
+    console.log(postr)
+    let x = `${postr.slice(1)}${postr.slice(0, 1)}${"ay"}`;
+    let lastPosition = postr.substring(postr.length - 1);
+    if (lastPosition != "!") {
+      x;
+    } else {
+      x = `${postr.slice(0)}`;
+    }
+
+    neWord = neWord + x.toString() + " ";
+  }
+
+  return neWord.trim();
+  //return console.log(neWord.trim());
+}
 
 ```
 
