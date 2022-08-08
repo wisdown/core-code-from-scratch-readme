@@ -110,21 +110,27 @@ Excrcise Name: Valid Parentheses
 - how i fixed:
 
 ```javascript Exercise No. 1
-/*put the code insede the backstic */
-
-## we are working on it
+   we are working on it
 
 ```
 
 Excrcise Name: Convert String To Camel Case
 
 - how i fixed:
+- i studied code line by line sice the solutions i had were not congruent.
 
 ```javascript Exercise No. 2
-/*put the code insede the backstic */
-
-## we are working on it
-
+function toCamelCase(str) {
+  let result = "";
+  for (let i = 0; i < str.length; i++) {
+    if (i != 0 && (str[i - 1] === "_" || str[i - 1] === "-")) {
+      result += str[i].toUpperCase();
+    } else if (str[i] != "-" && str[i] != "_") {
+      result += str[i];
+    }
+  }
+  return result;
+}
 ```
 
 Excrcise Name: Unique In Order

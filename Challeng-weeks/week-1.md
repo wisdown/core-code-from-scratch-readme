@@ -51,7 +51,7 @@ Sum of two values Solution
 	      number1: .asciiz "\nIngrese el primer numero: "
 	      number2: .asciiz "\nIngrese el segundo numero: "
 	      result_message: .asciiz "\nEl resultado es: "
-  .text
+  .str
 	      main:
 	      # li Load inmediate
 	      # $v0 print a string, with code 4
@@ -112,7 +112,7 @@ program that displays My name Solution
 .data
        name: .asciiz "Elí Modesto Gómes Hernández"
 
-	.text
+	.str
 	 	li $v0, 4
 	 	la $a0, name
 	 	syscall
