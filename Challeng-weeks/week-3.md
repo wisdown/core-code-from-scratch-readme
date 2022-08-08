@@ -127,11 +127,42 @@ Excrcise Name: Decode The Morse Code
 ## Wednesday
 
 Excrcise Name: Valid Parentheses
-
 - how i fixed:
+- Do the following exercise but it had some inconveniences when validations en in katas pass the test but not the attempt
 
 ```javascript Exercise No. 1
-   we are working on it
+  function validParentheses(parens) {
+   let size = parens.length;
+  //console.log(size);
+  if (size == 1 && parens == ")") {
+    return false;
+  }
+  if (size == 1 && parens == "(") {
+    return false;
+  }
+  if (size == 0) {
+    return true;
+  }
+
+  let left = [];
+  console.log(typeof left);
+  let right = [];
+
+  for (let i = 0; i < size; i++) {
+    if (parens[i] === "(") {
+      left.push(left[i]);
+    }
+    if (parens[i] === ")") {
+      right.push(right[i]);
+    }
+  }
+
+  if (left.length == right.length) {
+    return true;
+  }
+
+  return false;
+}
 
 ```
 
