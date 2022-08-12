@@ -192,13 +192,25 @@ unction shortcut (string) {
 Exercise No. 4
 
 - Excercise Name: Rock Paper Scissors!
-- how i fixed:
+- how i fixed: steps
+1. to solve this we have to think about parts of the game and do some if statement
+2. if both players get the same result they play again
+3. the rock crushes the scissors if this happens the player wins
+4. the scissors cut the paper if this happens the player wins
+5. paper wraps the rock if this happens the player wins
+6. In the opposite case, the other wins.
 
 ```javascript
-/*
-Let's play! You have to return which player won! In case of a draw return Draw!.
-*/
- we are working on it
+const rps = (p1, p2) => {
+    if (p1 === p2) return 'Draw!';
+    if (p1 === 'rock' && p2 === 'scissors') return 'Player 1 won!';
+    if (p1 === 'scissors' && p2 === 'paper') return 'Player 1 won!';
+    if (p1 === 'paper' && p2 === 'rock') return 'Player 1 won!';
+    return 'Player 2 won!';
+    
+
+};
+
 
 ```
 
