@@ -218,15 +218,31 @@ Exercise No. 5
 
 - Excercise Name: Persistent Bugger.
 - how i fixed:
+1. covert number to a string check its length
+2. we split the string using the split() method
+3. we create a result variable to store the values of the multiplication
+
+Methods used:
+* string() converts any number to string
+* split() to split the string
+* length: check the size of the ropes* 
+reduce() to do the multiplication since it is used on an array
 
 ```javascript
 
-/*
-Write a function, persistence, that takes in a positive parameter num and returns its multiplicative persistence, which is the number of times you must multiply the digits in num until you reach a single digit.
+function persistence(num) {
+  
+ let result = 0;
 
-For example (Input --> Output):
+    while (String(num).length !== 1) {
+        result++;
 
-*/
+        let numToArray = String(num).split("")
+        num = numToArray.reduce((acc, el) => { return parseInt(acc) * parseInt(el) })
+    }
+
+    return result;
+}
 we are working on it
 
 ```
