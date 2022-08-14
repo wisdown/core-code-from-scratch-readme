@@ -61,11 +61,21 @@ var countBits = function (n) {
 Excrcise Name: Your Order, Please
 
 - how i fixed:
+methods used: 
+split(); to split the code separated by a space
+sort(); to order  the elements through arrow functions
+arrow Functions: receive two arguments 
+mathc(): receive a regular exprension and index 0
+join(): to match each string separated by aspace
+
 
 ```javascript Exercise No. 3
-/*put the code insede the backstic */
+function order(words) {
+  return console.log(words.split(' ').sort( (firstEl,secondEl) => {
+    return firstEl.match(/\d/)[0]-secondEl.match(/\d/)[0]
+   }).join(" "));
+}
 
-## we are working on it
 ```
 
 ## Tuesday
