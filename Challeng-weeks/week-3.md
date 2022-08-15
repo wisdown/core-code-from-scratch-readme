@@ -128,9 +128,26 @@ Excrcise Name: Decode The Morse Code
 - how i fixed:
 
 ```javascript Exercise No. 3
-/*put the code insede the backstic */
 
-## we are working on it
+decodeMorse = function(morseCode){
+   var decodeString = '';
+  var morseCodeWords = morseCode.split('   ');
+  //console.log(morseCodeWords);
+  for (var i in morseCodeWords) {
+    //console.log(i);
+    //console.log(morseCodeWords);
+    var morseCodeArray = morseCodeWords[i].split(' ');
+    //console.log(morseCodeArray);
+    for (var j in morseCodeArray) {
+      if (MORSE_CODE[morseCodeArray[j]] !== undefined) {
+        decodeString += MORSE_CODE[morseCodeArray[j]];
+      }
+    }
+    decodeString += ' ';
+  }
+  decodeString = decodeString.trim();  
+  return decodeString;
+}
 
 ```
 
