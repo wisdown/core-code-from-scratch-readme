@@ -80,36 +80,36 @@ function order(words) {
 
 ## Tuesday
 
-Excrcise Name: Simple Pig Latin
+Exercise Name: Simple Pig Latin
 
 - how i fixed:
-- Do the following exercise but it had some inconveniences when validations en in  katas
+- method used:
+1. regx (regular expressions)
+2. test() is executed on the regular expression and returns true or false
+3. for()  iterate the array
+4. if()  do validations
+5. slice() remove any character from a given position
+6. trim() removes spaces at the ends of the string
 
 ```javascript Exercise No. 1
-function pigIt(str) {
-  //convertimos a un array
-  let strToArry = str.split(" ");
-  let sizeStr = strToArry.length;
-  let neWord = "";
+  function pigIt(str) {
+   str = str.split(" ")
+    let strChange = []
+    let regx = (/([a-zA-Z])/)    
+    
+    for (let i = 0; i < str.length; i++) {
+        if (regx.test(str[i])) {
+            strChange += str[i].slice(1).concat(str[i].slice(0, 1)).concat("ay ")
+        } else {
+            strChange += str[i]
+        }
+        //      console.log(str1);
 
-  for (let i = 0; i < sizeStr; i++) {
-    let postr = strToArry[i].toString();
-    console.log(postr)
-    let x = `${postr.slice(1)}${postr.slice(0, 1)}${"ay"}`;
-    let lastPosition = postr.substring(postr.length - 1);
-    if (lastPosition != "!") {
-      x;
-    } else {
-      x = `${postr.slice(0)}`;
     }
+    
+    return strChange.trim()
 
-    neWord = neWord + x.toString() + " ";
-  }
-
-  return neWord.trim();
-  //return console.log(neWord.trim());
-}
-
+  } 
 ```
 
 Excrcise Name: Counting Duplicates
