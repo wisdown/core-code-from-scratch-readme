@@ -115,11 +115,19 @@ Exercise Name: Simple Pig Latin
 Excrcise Name: Counting Duplicates
 
 - how i fixed:
+method used:
+1. TaLowerCase(): converts the string to lowercase
+2. split(). converts the string into an array
+3. sort(). sort the string
+4. join(). join the new string
+5. match(/([^])\1+/g) || []). this method search matches thrue the regx 
+6. length; measure the length
 
 ```javascript Exercise No. 2
-/*put the code insede the backstic */
-
-## we are working on it
+function duplicateCount(text){
+  
+  return (text.toLowerCase().split('').sort().join('').match(/([^])\1+/g) || []).length;
+}
 
 ```
 
