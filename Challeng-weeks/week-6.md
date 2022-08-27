@@ -1,17 +1,14 @@
-
-
 # Lab - Use types in TypeScript
-Exercise 1: Modify existing JavaScript code to have strongly typed variables
 
+Exercise 1: Modify existing JavaScript code to have strongly typed variables
 
 resurces https://docs.microsoft.com/en-us/learn/modules/typescript-declare-variable-types/8-types-lab
 
-
 ### Exercise 1: Modify existing JavaScript code to have strongly typed variables
 
-``` JavaScript
+```JavaScript
 /*  EXERCISE 1  Original JavaScript
-    TODO: Modify the code to add types to the variable declarations. 
+    TODO: Modify the code to add types to the variable declarations.
     The resulting JavaScript should look the same as the original example when you're done. */
 
 let firstName;
@@ -34,8 +31,9 @@ if (ukCitizen) {
 
 
 ```
+
 ```typeScript
-//typeSript solution 
+//typeSript solution
 let firstName: string;
 let lastName: string;
 let fullName : string;
@@ -57,14 +55,13 @@ if (ukCitizen) {
 
 ```
 
-
-
 ### Exercise 2: Modify existing JavaScript code that ensures operational outcomes using strongly typed variables
-* EXERCISE 2
-   TODO: Run the code as is and then modify it to have strongly typed variables. 
-   Then, address any errors you find so that the result returned to a is 12. */
 
-``` JavaScript
+- EXERCISE 2
+  TODO: Run the code as is and then modify it to have strongly typed variables.
+  Then, address any errors you find so that the result returned to a is 12. \*/
+
+```JavaScript
 //Original JavaScript
 let x;
 let y;
@@ -77,7 +74,7 @@ console.log(a);
 ```
 
 ```typeScript
-//typeSript solution 
+//typeSript solution
 let x:number;
 let y: number;
 let a:number;
@@ -95,9 +92,9 @@ console.log(a);
 ```JavaScript
 //Original JavaScript
 /* EXERCISE 3
-   TODO: In the following code, implement an enum type called Season that represents 
-   the constants "Fall", "Winter", "Spring", and "Summer". Then, update the function so 
-   you can pass in the season by referencing an item in the enum, for example 
+   TODO: In the following code, implement an enum type called Season that represents
+   the constants "Fall", "Winter", "Spring", and "Summer". Then, update the function so
+   you can pass in the season by referencing an item in the enum, for example
    Season.Fall, instead of the literal string "Fall". */
 
 function whichMonths(season) {
@@ -121,8 +118,7 @@ console.log(whichMonths("Fall"));
 
 ```
 
-
-``` typeScript
+```typeScript
 //typeSript solution
 
 enum seasons {
