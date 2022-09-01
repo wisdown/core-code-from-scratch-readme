@@ -136,5 +136,33 @@ export function warnTheSheep(queue: string[]): string {
 ```
 
 ## Wednesday
+1. A Rule Of Divisibility By 13 exercise, using 
+- how i fixed: To solve this exercise, I used the solution given at the end of each kata. In addition to studying various ways to perform the divisibility rule of 13, I saw several videos on you tube
+resource:  https://www.youtube.com/watch?v=5cWpiTgzJaA
+- method used: reduce(), Math.pow()
 
+Typescript
+```typescript
+export function thirt(n: number): number {
+ let remainders: number[] = [1, 10, 9, 12, 3, 4];
+  let result = n
+    .toString()
+    .split('')
+    .reverse()
+    .map((c: string, i: number) => parseInt(c) * remainders[i % 6])
+    .reduce((p: number, c: number) => (p += c));
+  return n == result ? result : thirt(result);
+}
+
+```
+
+2. Playing With Digits exercise, using 
+
+```typescript
+export class G964 {
+
+    public static digPow = (n: number, p: number) => (n=(String(n).split('').reduce((sum: number , d: string) => sum + (+d) ** p++, 0) / n), n%1 ? -1:n);
+}
+
+```
 ## Thursday
