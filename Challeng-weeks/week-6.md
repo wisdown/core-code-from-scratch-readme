@@ -5,12 +5,11 @@
 ## Monday
 
 Declare variable types in TypeScript guided exercise, using Typescript
-[Guided exercise, using Typescript]()
-
+[Guided exercise, using Typescript](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-6.1.md)
 
 2. TypeScript Object Type exercise
 
-``` typescript
+```typescript
 Exercise: Solution
 
  //   Given the data, define the interface "User" and use it accordingly.
