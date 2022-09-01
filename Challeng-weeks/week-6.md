@@ -4,8 +4,7 @@
 
 ## Monday
 
-Declare variable types in TypeScript guided exercise, using Typescript
-[Guided exercise, using Typescript](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-6.1.md)
+2. [Guided exercise, using Typescript](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-6.1.md) 
 
 2. TypeScript Object Type exercise
 
@@ -121,7 +120,7 @@ export function squareSum(numbers: number[]): number {
 
 2. A Wolf In Sheep's Clothing exercise, using Typescript
 
-- note. The most difficult thing is to be clear, since the explanation is not clear and makes the solution difficult.
+- Note. The explanations are not clear and make it difficult to solve. and sometimes it's easier than it seems
 
 ```typescript
 export function warnTheSheep(queue: string[]): string {
