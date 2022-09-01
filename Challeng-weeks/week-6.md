@@ -101,3 +101,41 @@ export function logPerson(user: Person) {
 
 persons.forEach(logPerson);
 ```
+
+## Tuesday
+
+1. Square(n) Sum exercise, using Typescript
+
+- how i fixed:
+- method used: reduce(), Math.pow()
+- The reduce method allows me to obtain the shortest and most direct solution without the need to use a for() loop, as well as being more efficient.
+
+```typescript
+export function squareSum(numbers: number[]): number {
+  return numbers.reduce(
+    (prev: number, cur: number) => prev + Math.pow(cur, 2),
+    0
+  );
+}
+```
+
+2. A Wolf In Sheep's Clothing exercise, using Typescript
+
+- note. The most difficult thing is to be clear, since the explanation is not clear and makes the solution difficult.
+
+```typescript
+export function warnTheSheep(queue: string[]): string {
+  if (queue[queue.length - 1] === "wolf") {
+    return "Pls go away and stop eating my sheep";
+  } else {
+    let index = queue.findIndex((x) => x == "wolf");
+    return `Oi! Sheep number ${
+      queue.length - index - 1
+    }! You are about to be eaten by a wolf!`;
+  }
+}
+```
+
+## Wednesday
+
+## Thursday
