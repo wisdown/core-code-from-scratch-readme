@@ -4,9 +4,9 @@
 
 ## Monday
 
-2. [Guided exercise, using Typescript](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-6.1.md) 
+2. [Guided exercise, using Typescript](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-6.1.md)
 
-2. TypeScript Object Type exercise
+3. TypeScript Object Type exercise
 
 ```typescript
 Exercise: Solution
@@ -136,33 +136,83 @@ export function warnTheSheep(queue: string[]): string {
 ```
 
 ## Wednesday
-1. A Rule Of Divisibility By 13 exercise, using 
+
+1. A Rule Of Divisibility By 13 exercise, using
+
 - how i fixed: To solve this exercise, I used the solution given at the end of each kata. In addition to studying various ways to perform the divisibility rule of 13, I saw several videos on you tube
-resource:  https://www.youtube.com/watch?v=5cWpiTgzJaA
-- method used: reduce(), Math.pow()
+  resource: https://www.youtube.com/watch?v=5cWpiTgzJaA
 
 Typescript
+
 ```typescript
 export function thirt(n: number): number {
- let remainders: number[] = [1, 10, 9, 12, 3, 4];
+  let remainders: number[] = [1, 10, 9, 12, 3, 4];
   let result = n
     .toString()
-    .split('')
+    .split("")
     .reverse()
     .map((c: string, i: number) => parseInt(c) * remainders[i % 6])
     .reduce((p: number, c: number) => (p += c));
   return n == result ? result : thirt(result);
 }
-
 ```
 
-2. Playing With Digits exercise, using 
+2. Playing With Digits exercise, using
 
 ```typescript
 export class G964 {
-
-    public static digPow = (n: number, p: number) => (n=(String(n).split('').reduce((sum: number , d: string) => sum + (+d) ** p++, 0) / n), n%1 ? -1:n);
+  public static digPow = (n: number, p: number) => (
+    (n =
+      String(n)
+        .split("")
+        .reduce((sum: number, d: string) => sum + (+d) ** p++, 0) / n),
+    n % 1 ? -1 : n
+  );
 }
-
 ```
+
 ## Thursday
+
+2. Tile exercise, using Typescript
+
+```typeScript
+export default class Tile {
+  private letter: string;
+  private value: number;
+
+  constructor(letter: string, value: number) {
+    this.letter = letter;
+    this.value = value;
+  }
+
+  public printTile() {
+    console.log(`Letter: ${this.letter} Value: ${this.value}`);
+  }
+}
+```
+
+2.
+ 
+
+```typescript
+export default class Time{
+
+  private hour: number;
+  private minute: number;
+  private second: number;
+
+  constructor(hour: number, minute: number, second: number){      
+     this.hour= hour
+     this.minute= minute
+     this.second= second
+
+  }
+  public getInSeconds(second: Number){
+      return this.second;
+  }   
+
+  public printTime() {
+    console.log(`hour: ${this.hour} minute: ${this.minute} second: ${this.second}`);
+  }
+}
+```
