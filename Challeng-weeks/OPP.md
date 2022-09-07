@@ -99,7 +99,7 @@ obj.Model();
 
 
  <!--- <img src="./images/polimorphismo.png" width="80%" height="80%" /> -->
-<img src="./images/polymorphism.png" width="100%" height="100%"/>
+<a href="https://ibb.co/VQSzc4D"><img src="https://i.ibb.co/Jy7GwJ2/Polymorphism.png" alt="Polymorphism" border="0" /></a>
 
 
 1. Encapsulation
