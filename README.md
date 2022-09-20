@@ -10,3 +10,5 @@ This document is made exclusively to present tasks that are required by core-cod
 4. [Task 6](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-6.md)
 
 5. [Task 7](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-7.md)
+
+5. [Task 8](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-8.md)
