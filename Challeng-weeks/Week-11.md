@@ -3,6 +3,7 @@
 <h2>Week Goals</h2>
 
 ## Tuesday
+
 ### Node.JS Core Understanding
 
 <ol>
@@ -13,6 +14,7 @@
 Node.js is a runtime environment.  It is open source JavaScript for building real-time network applications. Lightweight and scalable.
 
 Node.js es un entorno de tiempo de ejecución que está diseñado para generar aplicaciones web de forma altamente optimizada
+
 </p>
 </details>
 </li>
@@ -77,29 +79,120 @@ V8 is Google’s open source high-performance JavaScript and WebAssembly engine,
 
 </ol>
 
+### Node.JS Module System
 
+<ol>
+<li>
+<details>
+<summary>What is a Javascript Module?</summary>
+<p align = justify>
+ A module is a function or group of similar functions. They are grouped together within a file and contain the code to execute a specific task when called into a larger application.
+</p>
+</detatils>
+</li>
+<!-- start area -->
+<li>
+<details>
+<summary>Why are Javascript Modules necessary?</summary>
+<p align = justify>
+codigo aqui
+</p>
+</detatils>
+</li>
+<!-- end area -->
+<!-- start area -->
+<li>
+<details>
+<summary>What module standards are available in Node.JS?</summary>
+<p align = justify>
+codigo aqui
+</p>
+</detatils>
+</li>
+<!-- end are -->
+<!-- start area -->
+<li>
+<details>
+<summary>What are the differences between ESModules and CommonJS modules?</summary>
+<p align = justify>
+codigo aqui
+</p>
+</detatils>
+</li>
+<!-- end are -->
 
+<!-- start area -->
+<li>
+<details>
+<summary>Which types of modules exist in Node.JS?</summary>
+<p align = justify>
+codigo aqui
+</p>
+</detatils>
+</li>
+<!-- end are -->
+</ol>
 
-## Node.JS Module System
+### Node.JS Module System - Practice
+    - link here
+### Client-Server Model
+<ol>
+
+<!-- start area -->
+<li>
+<details>
+<summary>What is a Server?</summary>
+<p align = justify>
+codigo aqui
+</p>
+</detatils>
+</li>
+<!-- end are -->
+
+<!-- start area -->
+<li>
+<details>
+<summary>Why is a Client?</summary>
+<p align = justify>
+codigo aqui
+</p>
+</detatils>
+</li>
+<!-- end are -->
+
+<!-- start area -->
+<li>
+<details>
+<summary>Is a server just another physical computer? </summary>
+<p align = justify>
  
-1. What is a Javascript Module?
-<P> 
-A module is a function or group of similar functions. They are grouped together within a file and contain the code to execute a specific task when called into a larger application.
+1. Why do we refer to a certain class of applications as Servers?
+2. What is the difference?
+</p>
+</detatils>
+</li>
+<!-- end are -->
 
-</P>
+<!-- start area -->
+<li>
+<details>
+<summary>Is there any similarity between human communication and the client-server model?</summary>
+<p align = justify>
+codigo aqui
+</p>
+</detatils>
+</li>
+<!-- end are -->
 
-2. Why are Javascript Modules necessary?
-<P>
-</P>
+<!-- start area -->
+<li>
+<details>
+<summary>Is the client-server model applicable only to the Web? </summary>
+<p align = justify>
+1. Can you mention any other example of this model outside the Web?
+</p>
+</detatils>
+</li>
+<!-- end are -->
 
-    3. What module standards are available in Node.JS?
-    4. What are the differences between ESModules and CommonJS modules?
-    5. Which types of modules exist in Node.JS?
-</details>
-
-
-
-
-
-
-
+</ol>
