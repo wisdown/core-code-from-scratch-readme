@@ -152,7 +152,7 @@ There are 3 types of modules. They all work in a similar way but differ in origi
 <details>
 <summary>What is a Server?</summary>
 <p align = justify>
-codigo aqui
+A server is a set of computers capable of handling requests from a client and returning a response accordingly. Servers can be run on any type of computer, including dedicated computers that are individually referred to as "the server."
 </p>
 </detatils>
 </li>
@@ -161,9 +161,9 @@ codigo aqui
 <!-- start area -->
 <li>
 <details>
-<summary>Why is a Client?</summary>
+<summary>What is a Client?</summary>
 <p align = justify>
-codigo aqui
+A client is the receiving end of a service or the requestor of a service in a client/server model type of system. The client is most often located on another system or computer, which can be accessed via a network.
 </p>
 </detatils>
 </li>
@@ -174,9 +174,13 @@ codigo aqui
 <details>
 <summary>Is a server just another physical computer? </summary>
 <p align = justify>
- 
+ that is correct
 1. Why do we refer to a certain class of applications as Servers?
+
+- An application server is a server program in a computer in a distributed network that provides the business logic for an application program. The application server is frequently seen as part of a three-tier application consisting of a server graphical user interface (GUI) , an application server (business logic) and a server databases and transaction.
 2. What is the difference?
+
+- One thing is to assign a computer as a server which has characteristics that differentiate it from a desktop, while server-type applications are the services or resources to use
 </p>
 </detatils>
 </li>
@@ -187,7 +191,7 @@ codigo aqui
 <details>
 <summary>Is there any similarity between human communication and the client-server model?</summary>
 <p align = justify>
-codigo aqui
+there is similarity, for example, in a restaurant a certain dish of food is requested, one makes the request and it has a response, even though we do not know all the internal processes, one knows in advance that this request will have a response in the same way on the internet one does a request to a service and it has a response.
 </p>
 </detatils>
 </li>
@@ -198,7 +202,12 @@ codigo aqui
 <details>
 <summary>Is the client-server model applicable only to the Web? </summary>
 <p align = justify>
+
+No, a local network can also be applied
+
 1. Can you mention any other example of this model outside the Web?
+
+- printer resources can also be shared on a network
 </p>
 </detatils>
 </li>
