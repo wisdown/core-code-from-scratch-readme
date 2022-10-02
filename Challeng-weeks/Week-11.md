@@ -95,7 +95,7 @@ V8 is Google’s open source high-performance JavaScript and WebAssembly engine,
 <details>
 <summary>Why are Javascript Modules necessary?</summary>
 <p align = justify>
-codigo aqui
+To keep the code organized within a project, and to be able to perform a more efficient scalability
 </p>
 </detatils>
 </li>
@@ -105,7 +105,7 @@ codigo aqui
 <details>
 <summary>What module standards are available in Node.JS?</summary>
 <p align = justify>
-codigo aqui
+CommonJS
 </p>
 </detatils>
 </li>
@@ -115,7 +115,7 @@ codigo aqui
 <details>
 <summary>What are the differences between ESModules and CommonJS modules?</summary>
 <p align = justify>
-codigo aqui
+CommonJS only allows synchronous loading of modules, while ESM allows both synchronous and asynchronous loading.
 </p>
 </detatils>
 </li>
@@ -126,7 +126,13 @@ codigo aqui
 <details>
 <summary>Which types of modules exist in Node.JS?</summary>
 <p align = justify>
-codigo aqui
+There are 3 types of modules. They all work in a similar way but differ in origin.
+
+     Built-in modules: They are the native modules of the Node.js API. They do not need to be installed as they are included by default with Node.js. Some examples are the fs or stream modules. These packages are only updated if you change the version of Node.js.
+
+     Local modules: These are the modules written by the developers and form a large part of the application as a whole. As you have already read, they are structured like this in order to be able to be a reusable code.
+
+     External modules: These are, in essence, the third-party packages distributed through npm (although they may come from other repositories). These packages are installed as dependencies and, although they add functionality to the application, they should not be included in the repository since they are not part of the application
 </p>
 </detatils>
 </li>
