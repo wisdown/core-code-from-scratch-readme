@@ -19,6 +19,8 @@ This document is made exclusively to present tasks that are required by core-cod
     
     3.2. [Interfaces guided exercise, using Typescript](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-7.1.md)
 
-6. [Task 8](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-8.md)
+4. [Task 8](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-8.md)
+
+    4.1. [Develop typed functions by using TypeScript guided exercise ](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-8.1.md)
 
 11. [Task 11](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-11.md)
