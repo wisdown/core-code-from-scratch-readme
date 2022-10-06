@@ -17,7 +17,7 @@ This document is made exclusively to present tasks that are required by core-cod
 
     3.1. [OOP glossary Object Oriented Programming ](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/OPP.md)
     
-    5.2. [Interfaces guided exercise, using Typescript](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-7.1.md)
+    3.2. [Interfaces guided exercise, using Typescript](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-7.1.md)
 
 6. [Task 8](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-8.md)
 
