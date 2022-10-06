@@ -4,8 +4,6 @@
 
 ## Monday
 
-[OOP glossary Object Oriented Programming ](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/OPP.md)
-
 ## Wednesday
 
 1. Build Tower exercise 
