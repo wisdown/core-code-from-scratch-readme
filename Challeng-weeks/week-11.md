@@ -139,10 +139,6 @@ There are 3 types of modules. They all work in a similar way but differ in origi
 <!-- end are -->
 </ol>
 
-### Node.JS Module System - Practice
-
-[See Module Example](https://github.com/wisdown/core-code-from-scratch-readme/tree/main/Project-Challeng/module-practice)
-
 ### Client-Server Model
 
 <ol>
