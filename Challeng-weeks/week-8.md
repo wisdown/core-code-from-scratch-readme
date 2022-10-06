@@ -7,9 +7,8 @@
 
 ## Tuesday
 
-1. [Develop typed functions by using TypeScript guided exercise ](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-8.1.md)
-2. Read Abstract Classes
-3. Watch Abstract Classes vs Interfaces video
+1. Read Abstract Classes
+2. Watch Abstract Classes vs Interfaces video
 
 ## Wednesday
 1. Make the Deadfish Swim exercise 
