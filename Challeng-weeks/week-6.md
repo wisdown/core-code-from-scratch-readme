@@ -4,8 +4,6 @@
 
 ## Monday
 
-2. [Guided exercise, using Typescript](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-6.1.md)
-
 3. TypeScript Object Type exercise
 
 ```typescript
