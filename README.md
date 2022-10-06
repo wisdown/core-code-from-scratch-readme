@@ -9,6 +9,7 @@ This document is made exclusively to present tasks that are required by core-cod
     1.3. [Javascript weekly tasks](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-3.md)
 
 2. [Typescript](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-6.md)
+
     2.1. [Guided exercise, using Typescript](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-6.1.md)
 
 
