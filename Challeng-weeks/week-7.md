@@ -2,8 +2,6 @@
 
 <h2>Week Goals</h2>
 
-## Monday
-
 ## Wednesday
 
 1. Build Tower exercise 
@@ -49,6 +47,3 @@ function meeting(s) {
 }
 
 ```
-## Thursday
-
-1. [Interfaces guided exercise, using Typescript](https://github.com/wisdown/core-code-from-scratch-readme/blob/main/Challeng-weeks/week-7.1.md)
